@@ -15,16 +15,6 @@ let test1 = Number(readlineSync.question(""));
 let test2 = Number(readlineSync.question(""));
 let test3 = Number(readlineSync.question(""));
 
-// homework1 = parseInt(homework1, 10);
-// homework2 = parseInt(homework2, 10);
-// homework3 = parseInt(homework3, 10);
-// quiz1 = parseInt(quiz1, 10);
-// quiz2 = parseInt(quiz2, 10);
-// quiz3 = parseInt(quiz3, 10);
-// test1 = parseInt(test1, 10);
-// test2 = parseInt(test2, 10);
-// test3 = parseInt(test3, 10);
-
 const hw_weight = 0.15;
 const quiz_weight = 0.35;
 const test_weight = 0.50;
@@ -36,7 +26,3 @@ let grade = (weightedHw + weightedQuiz + weightedTest)/100;
 let formattedGrade = grade.toLocaleString('en-US', {style: 'percent', minimumFractionDigits :2, maximumFractionDigits :2})
 
 console.log("\nYour marking period grade is " + formattedGrade + ".");
-
-
-
-//finish checking number function
