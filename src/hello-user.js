@@ -1,5 +1,5 @@
 const readlineSync = require("readline-sync");
 
-const name = readlineSync.question("\nHi! What's your name?\n");
+const firstName = readlineSync.question("\nHi! What's your name?\n");
 console.log(" ");
-console.log("Hello, " + name + "!");
+console.log("Hello, " + firstName + "!");

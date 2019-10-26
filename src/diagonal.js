@@ -1,7 +1,6 @@
 const readlineSync = require("readline-sync");
 
-console.log(" ");
-let width = readlineSync.question("Width: ");
+let width = readlineSync.question("\nWidth: ");
 let length = readlineSync.question("Length: ");
 let diagonal = Math.hypot(width, length);
 

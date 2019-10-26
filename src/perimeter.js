@@ -1,7 +1,6 @@
 const readlineSync = require("readline-sync");
 
-console.log(" ");
-let width = readlineSync.question("Width: ");
+let width = readlineSync.question("\nWidth: ");
 let length = readlineSync.question("Length: ");
 
 const conversionFactor = 2.54;

@@ -1,6 +1,6 @@
 const readlineSync = require("readline-sync");
 
-console.log(" ");
+console.log("");
 let width = readlineSync.question("Width: ");
 let length = readlineSync.question("Length: ");
 
