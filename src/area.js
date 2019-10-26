@@ -4,7 +4,6 @@ console.log("");
 let width = readlineSync.question("Width: ");
 let length = readlineSync.question("Length: ");
 
-//Convert to millimeters
 const conversionFactor = 25.4;
 let area = width*length*(Math.pow(conversionFactor, 2));
 
